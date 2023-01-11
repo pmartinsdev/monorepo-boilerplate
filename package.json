@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "license": "MIT",
+  "version": "1.0.0",
+  "name": "monorepo",
+  "author": "pmartinsdev <martins20.tech@gmail.com>",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "@monorepo/eslint": "*"
+  }
+}
